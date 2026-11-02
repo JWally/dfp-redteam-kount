@@ -1,0 +1,66 @@
+{
+  "mode": "spoof",
+  "forged_ss": "c0ffeec0ffeec0ffeec0ffeec0ffeec0",
+  "shipped": [
+    {
+      "u": "https://tst.kaptcha.com/md",
+      "body": "ss=e5e65927bd2c4b02bf5d215d3a888d20&et=0&kddcgid=55884974-7a94-495c-8c4d-9c88ca89406e&kappid=55b165b7-c136-4567-b838-cf793440f4ad&ln=en-US&e=1793631275931&t0=360&tf=360&ta=300&sa=900x1280&cd=24&sd=900x1280&fd=0&rm=false&wd=false&lh=&s=89f8cc8f73554fafaa1aeb08d6777cd9&m=700000&n=clientdata"
+    },
+    {
+      "u": "https://tst.kaptcha.com/md",
+      "body": "gv=Google%20Inc.%20(Google)&gr=ANGLE%20(Google%2C%20Vulkan%201.3.0%20(SwiftShader%20Device%20(Subzero)%20(0x0000C0DE))%2C%20SwiftShader%20driver)&et=5&kddcgid=55884974-7a94-495c-8c4d-9c88ca89406e&kappid=55b165b7-c136-4567-b838-cf793440f4ad&s=89f8cc8f73554fafaa1aeb08d6777cd9&m=700000&n=canvasdata"
+    },
+    {
+      "u": "https://tst.kaptcha.com/md",
+      "body": "d=v%3D0%0D%0Ao%3D-%204118817329648213873%202%20IN%20IP4%20127.0.0.1%0D%0As%3D-%0D%0At%3D0%200%0D%0Aa%3Dgroup%3ABUNDLE%200%0D%0Aa%3Dextmap-allow-mixed%0D%0Aa%3Dmsid-semantic%3A%20WMS%0D%0Am%3Dapplication%2048179%20UDP%2FDTLS%2FSCTP%20webrtc-datachannel%0D%0Ac%3DIN%20IP4%20107.210.133.127%0D%0Aa%3Dcandidate%3A334373291%201%20udp%202113937151%203d4b4dc9-93d3-4a5c-bdb8-c677d1ffe858.local%2048179%20typ%20host%20generation%200%20network-cost%20999%0D%0Aa%3Dcandidate%3A1798517883%201%20udp%201677729535%20107.210.133.127%2048179%20typ%20srflx%20raddr%200.0.0.0%20rport%200%20generation%200%20network-cost%20999%0D%0Aa%3Dice-ufrag%3Af06y%0D%0Aa%3Dice-pwd%3AzFbzGM7trdhCr6ptMqXg%2BkrX%0D%0Aa%3Dice-options%3Atrickle%0D%0Aa%3Dfingerprint%3Asha-256%20CD%3AE3%3A50%3A3F%3AF7%3A0F%3AC5%3A0F%3A1F%3AD0%3A5D%3A1F%3AAF%3A26%3A60%3A2C%3A1E%3AEF%3A66%3A97%3A29%3A62%3AE3%3AE3%3A77%3A0A%3AFD%3A07%3A06%3AF8%3AB9%3AEC%0D%0Aa%3Dsetup%3Aactpass%0D%0Aa%3Dmid%3A0%0D%0Aa%3Dsctp-port%3A5000%0D%0Aa%3Dmax-message-size%3A262144%0D%0A&i=KA&et=145&kddcgid=55884974-7a94-495c-8c4d-9c88ca89406e&kappid=55b165b7-c136-4567-b838-cf793440f4ad&s=89f8cc8f73554fafaa1aeb08d6777cd9&m=700000&n=webrtc"
+    },
+    {
+      "u": "https://tst.kaptcha.com/md",
+      "body": "d=v%3D0%0D%0Ao%3D-%203611798933130765376%202%20IN%20IP4%20127.0.0.1%0D%0As%3D-%0D%0At%3D0%200%0D%0Aa%3Dgroup%3ABUNDLE%200%0D%0Aa%3Dextmap-allow-mixed%0D%0Aa%3Dmsid-semantic%3A%20WMS%0D%0Am%3Dapplication%2058469%20UDP%2FDTLS%2FSCTP%20webrtc-datachannel%0D%0Ac%3DIN%20IP4%20107.210.133.127%0D%0Aa%3Dcandidate%3A857083293%201%20udp%202113937151%203d4b4dc9-93d3-4a5c-bdb8-c677d1ffe858.local%2058469%20typ%20host%20generation%200%20network-cost%20999%0D%0Aa%3Dcandidate%3A1271601229%201%20udp%201677729535%20107.210.133.127%2058469%20typ%20srflx%20raddr%200.0.0.0%20rport%200%20generation%200%20network-cost%20999%0D%0Aa%3Dice-ufrag%3A7nOH%0D%0Aa%3Dice-pwd%3AmGTm00j3FQcw%2Bv%2FgSQtgJFFo%0D%0Aa%3Dice-options%3Atrickle%0D%0Aa%3Dfingerprint%3Asha-256%20A3%3A7D%3A6A%3A4B%3A06%3A6D%3AC1%3A56%3A13%3A74%3AED%3AAC%3A0C%3A01%3A36%3A83%3AA9%3AA9%3A23%3A9C%3A86%3A8B%3A73%3AEE%3AF1%3AAA%3A93%3AC7%3ABC%3A94%3A7F%3AC7%0D%0Aa%3Dsetup%3Aactpass%0D%0Aa%3Dmid%3A0%0D%0Aa%3Dsctp-port%3A5000%0D%0Aa%3Dmax-message-size%3A262144%0D%0A&i=KB&et=146&kddcgid=55884974-7a94-495c-8c4d-9c88ca89406e&kappid=55b165b7-c136-4567-b838-cf793440f4ad&s=89f8cc8f73554fafaa1aeb08d6777cd9&m=700000&n=webrtc"
+    },
+    {
+      "u": "https://tst.kaptcha.com/fin",
+      "body": "s=89f8cc8f73554fafaa1aeb08d6777cd9&m=700000&n=collect-end&com=true&et=2009&kddcgid=55884974-7a94-495c-8c4d-9c88ca89406e&kappid=55b165b7-c136-4567-b838-cf793440f4ad"
+    }
+  ],
+  "respLog": [
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/collect/sdk?m=700000"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/collect/kasupport"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/logo.htm?m=700000&s=89f8cc8f73554fafaa1aeb08d6777cd9&kddcgid=55884974-7a94-4"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/fin"
+    }
+  ],
+  "iframeState": {
+    "ss": "e5e65927bd2c4b02bf5d215d3a888d20"
+  },
+  "topState": {
+    "fpcv": "85c84560a8a0e45289b1bbe6a6b8b432711fa9fc467014b34f30360344148a5d1adc3f68f1109ea7f0243970fa703054681eacabed54910b6317164f4b51a7286a11639f380c87fd1d5eae67e1b6e19a99d3d58bf606013ab662fff5c65fb8b8d50457bf848b1b4d58c37216f9ff6eb9757e889b1918126fb181f02b82300dd7343cc9ff938b4062b3df745b40723636e8e01ad3ea70fdc5158ae9"
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "t": 1793630864409,
+    "m": "GET",
+    "u": "https://tst.kaptcha.com/collect/sdk?m=700000",
+    "bodyLen": 0,
+    "body": null
+  },
+  {
+    "t": 1793630864592,
+    "m": "POST",
+    "u": "https://tst.kaptcha.com/collect/kasupport",
+    "bodyLen": 132,
+    "body": "m=700000&s=de205fd780184b6383314394dd6f22b6&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71"
+  },
+  {
+    "t": 1793630864593,
+    "m": "GET",
+    "u": "https://tst.kaptcha.com/logo.htm?m=700000&s=de205fd780184b6383314394dd6f22b6&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71",
+    "bodyLen": 0,
+    "body": null
+  },
+  {
+    "t": 1793630864594,
+    "resp": true,
+    "status": 200,
+    "type": "text/javascript",
+    "u": "https://tst.kaptcha.com/collect/sdk?m=700000",
+    "size": 6004,
+    "head": "kddcgid = \"55283372-ff92-4d41-9f8d-57c58e3018e4\";\nkappid = \"55923102-066b-4439-a808-ab1827858f71\";\ndocument.getKElementsByClassName=function(className){var results=[];var regex=new RegExp('(^| )'+className+'($| )');var elements=this.getElementsByTagName('*');for(var index=0;index<elements.length;index++){var classes=elements[index].className;if(regex.test(classes))results.push(elements[index]);}re"
+  },
+  {
+    "t": 1793630864719,
+    "m": "POST",
+    "u": "https://tst.kaptcha.com/md",
+    "bodyLen": 289,
+    "body": "ss=57ebe4872fb24a38a45776d82c2250d4&et=1&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71&ln=en-US&e=1793630864711&t0=360&tf=360&ta=300&sa=900x1280&cd=24&sd=900x1280&fd=0&rm=false&wd=false&lh=&s=de205fd780184b6383314394dd6f22b6&m=700000&n=clientdata"
+  },
+  {
+    "t": 1793630864719,
+    "m": "POST",
+    "u": "https://tst.kaptcha.com/md",
+    "bodyLen": 296,
+    "body": "gv=Google%20Inc.%20(Google)&gr=ANGLE%20(Google%2C%20Vulkan%201.3.0%20(SwiftShader%20Device%20(Subzero)%20(0x0000C0DE))%2C%20SwiftShader%20driver)&et=5&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71&s=de205fd780184b6383314394dd6f22b6&m=700000&n=canvasdata"
+  },
+  {
+    "t": 1793630864721,
+    "resp": true,
+    "status": 200,
+    "type": "text/html",
+    "u": "https://tst.kaptcha.com/logo.htm?m=700000&s=de205fd780184b6383314394dd6f22b6&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71",
+    "size": 24598,
+    "head": "<!DOCTYPE html>\n<html>\n<body style='margin:0;padding:0;position:absolute;'>\n\t\n\t\n\t<script type='text/javascript'>\n\t\tkddcgid = \"55283372-ff92-4d41-9f8d-57c58e3018e4\";\n\t\tkappid = \"55923102-066b-4439-a808-ab1827858f71\";\n\t</script>\n\t<script type='text/javascript'>(function(){var myUndefined,typeUndefined=typeof myUndefined;if(typeof window.con===typeUndefined){window.con={};}con.TYPE_UNDEFINED=typeUnde"
+  },
+  {
+    "t": 1793630864767,
+    "resp": true,
+    "status": 200,
+    "type": "",
+    "u": "https://tst.kaptcha.com/md",
+    "size": 0,
+    "head": ""
+  },
+  {
+    "t": 1793630864771,
+    "m": "POST",
+    "u": "https://tst.kaptcha.com/collect/cookiestore",
+    "bodyLen": 445,
+    "body": "m=700000&s=de205fd780184b6383314394dd6f22b6&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71&k=458b51eae688d9ca27e8982f4e175092cf06dd429c7a48ce9adc2a9bb164ffb37f530645d559b5b47b8eae72d0fbd0f09240e19020838dbf1e7f439d9c46f06a6f080f5c9b51abbb0bf9ff0dc80ae6163f93eb6f094cd7e99269dbe7aa960c1c1cd4b240857b57197a48ac5d8c96fe53ced6a06bc79dd9a933e16a2cc98d970c7d09734176c3d2418c891775f399945b30d90ad4ead742180b600f"
+  },
+  {
+    "t": 1793630864771,
+    "resp": true,
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "u": "https://tst.kaptcha.com/collect/kasupport",
+    "size": 2169,
+    "head": "var kaGetLocalStorageCookie=function(e){try{var o=localStorage.getItem(e);return null==o?\"\":o}catch(e){return\"\"}},kaGetHTMLCookie=function(e){try{for(var o=e+\"=\",t=decodeURIComponent(document.cookie).split(\";\"),a=\"\",l=0;l<t.length;l++)if(currentCookie=t[l].trim(),0==currentCookie.indexOf(o)){a=currentCookie.split(\"=\")[1];break}return a}catch(e){return\"\"}},kaSetLocalStorageCookie=function(e,o){try{"
+  },
+  {
+    "t": 1793630864821,
+    "resp": true,
+    "status": 200,
+    "type": "",
+    "u": "https://tst.kaptcha.com/md",
+    "size": 0,
+    "head": ""
+  },
+  {
+    "t": 1793630864825,
+    "resp": true,
+    "status": 200,
+    "type": "",
+    "u": "https://tst.kaptcha.com/collect/cookiestore",
+    "size": 0,
+    "head": ""
+  },
+  {
+    "t": 1793630864851,
+    "m": "POST",
+    "u": "https://tst.kaptcha.com/md",
+    "bodyLen": 1164,
+    "body": "d=v%3D0%0D%0Ao%3D-%207338293679774052024%202%20IN%20IP4%20127.0.0.1%0D%0As%3D-%0D%0At%3D0%200%0D%0Aa%3Dgroup%3ABUNDLE%200%0D%0Aa%3Dextmap-allow-mixed%0D%0Aa%3Dmsid-semantic%3A%20WMS%0D%0Am%3Dapplication%2057523%20UDP%2FDTLS%2FSCTP%20webrtc-datachannel%0D%0Ac%3DIN%20IP4%20107.210.133.127%0D%0Aa%3Dcandidate%3A3556647953%201%20udp%202113937151%20a9766450-785d-4e57-a55a-f9536e659dfb.local%2057523%20typ%20host%20generation%200%20network-cost%20999%0D%0Aa%3Dcandidate%3A2871210433%201%20udp%201677729535%20107.210.133.127%2057523%20typ%20srflx%20raddr%200.0.0.0%20rport%200%20generation%200%20network-cost%20999%0D%0Aa%3Dice-ufrag%3AycDz%0D%0Aa%3Dice-pwd%3AyxkNo6K5ZsBMuBBPZ3CciCHo%0D%0Aa%3Dice-options%3Atrickle%0D%0Aa%3Dfingerprint%3Asha-256%20F8%3A99%3A6C%3AEB%3ABD%3A14%3A58%3A96%3AC3%3A25%3A8E%3A6B%3AE5%3A16%3A7B%3A0A%3A5F%3A81%3AD7%3A39%3AC5%3AC8%3A21%3AA9%3A6C%3A22%3A90%3A59%3A8A%3A73%3A3F%3A95%0D%0Aa%3Dsetup%3Aactpass%0D%0Aa%3Dmid%3A0%0D%0Aa%3Dsctp-port%3A5000%0D%0Aa%3Dmax-message-size%3A262144%0D%0A&i=KA&et=145&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71&s=de205fd780184b6383314394dd6f22b6&m=700000&n=webrtc"
+  },
+  {
+    "t": 1793630864851,
+    "m": "POST",
+    "u": "https://tst.kaptcha.com/md",
+    "bodyLen": 1164,
+    "body": "d=v%3D0%0D%0Ao%3D-%206811986275823821119%202%20IN%20IP4%20127.0.0.1%0D%0As%3D-%0D%0At%3D0%200%0D%0Aa%3Dgroup%3ABUNDLE%200%0D%0Aa%3Dextmap-allow-mixed%0D%0Aa%3Dmsid-semantic%3A%20WMS%0D%0Am%3Dapplication%2038674%20UDP%2FDTLS%2FSCTP%20webrtc-datachannel%0D%0Ac%3DIN%20IP4%20107.210.133.127%0D%0Aa%3Dcandidate%3A3508786215%201%20udp%202113937151%20a9766450-785d-4e57-a55a-f9536e659dfb.local%2038674%20typ%20host%20generation%200%20network-cost%20999%0D%0Aa%3Dcandidate%3A2852045303%201%20udp%201677729535%20107.210.133.127%2038674%20typ%20srflx%20raddr%200.0.0.0%20rport%200%20generation%200%20network-cost%20999%0D%0Aa%3Dice-ufrag%3AZwKi%0D%0Aa%3Dice-pwd%3AsAFJLPdPFD6m6xYezsOIOn06%0D%0Aa%3Dice-options%3Atrickle%0D%0Aa%3Dfingerprint%3Asha-256%20B1%3ABA%3AF0%3A78%3A06%3ACB%3AA6%3AF5%3A15%3A90%3A6B%3A9A%3A32%3AF1%3A5C%3A84%3AB3%3ACD%3A3E%3AE9%3AC0%3A4D%3A80%3AC4%3A73%3AC3%3AAE%3A71%3A94%3ACD%3AEE%3A00%0D%0Aa%3Dsetup%3Aactpass%0D%0Aa%3Dmid%3A0%0D%0Aa%3Dsctp-port%3A5000%0D%0Aa%3Dmax-message-size%3A262144%0D%0A&i=KB&et=146&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71&s=de205fd780184b6383314394dd6f22b6&m=700000&n=webrtc"
+  },
+  {
+    "t": 1793630864912,
+    "resp": true,
+    "status": 200,
+    "type": "",
+    "u": "https://tst.kaptcha.com/md",
+    "size": 0,
+    "head": ""
+  },
+  {
+    "t": 1793630864912,
+    "resp": true,
+    "status": 200,
+    "type": "",
+    "u": "https://tst.kaptcha.com/md",
+    "size": 0,
+    "head": ""
+  },
+  {
+    "t": 1793630866712,
+    "m": "POST",
+    "u": "https://tst.kaptcha.com/fin",
+    "bodyLen": 163,
+    "body": "s=de205fd780184b6383314394dd6f22b6&m=700000&n=collect-end&com=true&et=2007&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71"
+  },
+  {
+    "t": 1793630866770,
+    "resp": true,
+    "status": 200,
+    "type": "",
+    "u": "https://tst.kaptcha.com/fin",
+    "size": 0,
+    "head": ""
+  }
+]

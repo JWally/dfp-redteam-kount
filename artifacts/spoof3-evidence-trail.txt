@@ -1,0 +1,32 @@
+=== KOUNT SPOOF — full server-observed trail ===
+stolen ss  : e5e65927bd2c4b02bf5d215d3a888d20
+stolen FPCV: 85c84560a8a0e45289b1bbe6a6b8b432711fa9fc...
+
+REQ  GET https://tst.kaptcha.com/collect/sdk?m=700000
+REQ  POST https://tst.kaptcha.com/collect/kasupport
+     body: m=700000&s=7299e253789c4bce9b208fdae63213e8&kddcgid=550d3c08-7879-45c5-b483-1db7fa121c6f&kappid=5561c571-83cf-411e-b9e3-9d721f627a58&k=85c84560a8a0e45289b1bbe6a6b8b432711fa9fc467014b34f30360344148a5d1adc3f68f1109ea7f0243970fa703054681eacabed54910b6317164f4b51a...
+RES  200 https://tst.kaptcha.com/collect/sdk?m=700000
+     head: kddcgid = "550d3c08-7879-45c5-b483-1db7fa121c6f";
+kappid = "5561c571-83cf-411e-b9e3-9d721f627a58";
+document.getKElements
+REQ  GET https://tst.kaptcha.com/logo.htm?m=700000&s=7299e253789c4bce9b208fdae63213e8&kddcgid=550d3c08-7879-45c5-b483-1db7fa121c6f&kappid=5561c571-83cf-411e-b9
+RES  200 https://tst.kaptcha.com/collect/kasupport
+REQ  POST https://tst.kaptcha.com/md
+     body: ss=e5e65927bd2c4b02bf5d215d3a888d20&et=1&kddcgid=550d3c08-7879-45c5-b483-1db7fa121c6f&kappid=5561c571-83cf-411e-b9e3-9d721f627a58&ln=en-US&e=1793631526761&t0=360&tf=360&ta=300&sa=900x1280&cd=24&sd=900x1280&fd=0&rm=false&wd=false&lh=&s=7299e253789c4bce9b208fdae...
+REQ  POST https://tst.kaptcha.com/md
+     body: gv=Google%20Inc.%20(Google)&gr=ANGLE%20(Google%2C%20Vulkan%201.3.0%20(SwiftShader%20Device%20(Subzero)%20(0x0000C0DE))%2C%20SwiftShader%20driver)&et=4&kddcgid=550d3c08-7879-45c5-b483-1db7fa121c6f&kappid=5561c571-83cf-411e-b9e3-9d721f627a58&s=7299e253789c4bce9b...
+RES  200 https://tst.kaptcha.com/logo.htm?m=700000&s=7299e253789c4bce9b208fdae63213e8&kddcgid=550d3c08-7879-45c5-b483-1db7fa121c6f&kappid=5561c571-83cf-411e-b9
+RES  200 https://tst.kaptcha.com/md
+RES  200 https://tst.kaptcha.com/md
+REQ  POST https://tst.kaptcha.com/md
+     body: d=v%3D0%0D%0Ao%3D-%203872271251186770672%202%20IN%20IP4%20127.0.0.1%0D%0As%3D-%0D%0At%3D0%200%0D%0Aa%3Dgroup%3ABUNDLE%200%0D%0Aa%3Dextmap-allow-mixed%0D%0Aa%3Dmsid-semantic%3A%20WMS%0D%0Am%3Dapplication%2044121%20UDP%2FDTLS%2FSCTP%20webrtc-datachannel%0D%0Ac%3...
+REQ  POST https://tst.kaptcha.com/md
+     body: d=v%3D0%0D%0Ao%3D-%206536916737075837464%202%20IN%20IP4%20127.0.0.1%0D%0As%3D-%0D%0At%3D0%200%0D%0Aa%3Dgroup%3ABUNDLE%200%0D%0Aa%3Dextmap-allow-mixed%0D%0Aa%3Dmsid-semantic%3A%20WMS%0D%0Am%3Dapplication%2037621%20UDP%2FDTLS%2FSCTP%20webrtc-datachannel%0D%0Ac%3...
+RES  200 https://tst.kaptcha.com/md
+RES  200 https://tst.kaptcha.com/md
+REQ  POST https://tst.kaptcha.com/fin
+     body: s=7299e253789c4bce9b208fdae63213e8&m=700000&n=collect-end&com=true&et=2007&kddcgid=550d3c08-7879-45c5-b483-1db7fa121c6f&kappid=5561c571-83cf-411e-b9e3-9d721f627a58
+RES  200 https://tst.kaptcha.com/fin
+
+FPCV cookie AFTER spoof run: 85c84560a8a0e45289b1bbe6a6b8b432711fa9fc...
+=> STOLEN VALUE HELD — server accepted the replayed device identity

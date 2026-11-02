@@ -1,0 +1,70 @@
+{
+  "log": [
+    {
+      "t": "tampered-POST",
+      "url": "https://tst.kaptcha.com/md",
+      "origLen": 289,
+      "newLen": 287,
+      "changed": true
+    },
+    {
+      "t": "tampered-POST",
+      "url": "https://tst.kaptcha.com/md",
+      "origLen": 296,
+      "newLen": 192,
+      "changed": true
+    },
+    {
+      "t": "tampered-POST",
+      "url": "https://tst.kaptcha.com/md",
+      "origLen": 1166,
+      "newLen": 1166,
+      "changed": false
+    },
+    {
+      "t": "tampered-POST",
+      "url": "https://tst.kaptcha.com/md",
+      "origLen": 1167,
+      "newLen": 1167,
+      "changed": false
+    }
+  ],
+  "respLog": [
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/collect/sdk?m=700000"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/logo.htm?m=700000&s=1a584bc576cb4088aeeec477b7414160&kddcgid=5522dab7-d653-45b4-876e-78fe33a94b1"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/collect/kasupport"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/collect/cookiestore"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/md"
+    },
+    {
+      "status": 200,
+      "url": "https://tst.kaptcha.com/fin"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "begin": {
+    "MercSessId": "de205fd780184b6383314394dd6f22b6",
+    "MerchantId": "700000"
+  },
+  "end": {
+    "MercSessId": "de205fd780184b6383314394dd6f22b6",
+    "MerchantId": "700000"
+  },
+  "cookie": "cdn.bluesnap.700000.ka.ck=458b51eae688d9ca27e8982f4e175092cf06dd429c7a48ce9adc2a9bb164ffb37f530645d559b5b47b8eae72d0fbd0f09240e19020838dbf1e7f439d9c46f06a6f080f5c9b51abbb0bf9ff0dc80ae6163f93eb6f094cd7e99269dbe7aa960c1c1cd4b240857b57197a48ac5d8c96fe53ced6a06bc79dd9a933e16a2cc98d970c7d09734176c3d2418c891775f399945b30d90ad4ead742180b600f",
+  "kddcgid": "55283372-ff92-4d41-9f8d-57c58e3018e4",
+  "ka": {
+    "host": "https://tst.kaptcha.com",
+    "merchantId": "700000",
+    "sessionId": "de205fd780184b6383314394dd6f22b6"
+  },
+  "iframes": [
+    "https://tst.kaptcha.com/logo.htm?m=700000&s=de205fd780184b6383314394dd6f22b6&kddcgid=55283372-ff92-4d41-9f8d-57c58e3018e4&kappid=55923102-066b-4439-a808-ab1827858f71"
+  ]
+}
