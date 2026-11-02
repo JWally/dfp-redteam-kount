@@ -35,6 +35,9 @@ MD5 hashes (`zt`, `lh`) and the server-issued opaque values (FPCV cookie,
 - 🟢 Mint token: forge the cross-session `ss` anchor (32-hex, client-persisted,
   no server cross-check) → shipped verbatim + **200**; stolen
   (ss + FPCV) pair replays cleanly — server holds the replayed identity
+- 🟢 No linkage: an **FPCV from device A + an `ss` from device B** (mismatch)
+  is accepted (all 200) — the collector does **not** tie the two identities
+  together at collection time (`scripts/knt-crosscheck.mjs`)
 - 🔴 Forge FPCV: the device cookie **is** server-validated (garbage → 400) —
   the server-side FPCV validation + RIS graph is the real moat
 
@@ -75,3 +78,8 @@ MD5 hashes (`zt`, `lh`) and the server-issued opaque values (FPCV cookie,
   we can replay a stolen pair and mint the `ss` anchor, but cannot forge an
   arbitrary valid FPCV. The moat is server-side, as with the other
   server-graph vendors.
+
+## Live deployments (2026-11-02)
+
+Real merchant deployments found via public urlscan.io search + page fetches —
+see [`LIVE_DEPLOYMENTS_2026_11_02.md`](LIVE_DEPLOYMENTS_2026_11_02.md).

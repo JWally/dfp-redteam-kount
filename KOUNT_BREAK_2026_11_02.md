@@ -75,6 +75,10 @@ collector accepts a tampered fingerprint.
 - **FPCV forge boundary**: a garbage FPCV is rejected — `/collect/cookiestore`
   returns **400** (`artifacts/reject-result.json`). The FPCV itself cannot be
   forged; the moat is server-side.
+- **No `ss`↔FPCV linkage (cross-check)**: presenting an **FPCV from device A
+  with an `ss` from a different device B** is accepted (all 200,
+  `scripts/knt-crosscheck.mjs`). The two client-asserted identities are
+  collected independently — the collector does not cross-check them.
 
 ## 5. Assessment
 
